@@ -25,197 +25,123 @@
 
 	"motions": {
 		"start": [{
-			"file": "model/remu/motions/Live2D_remu26.mtn",
-            "sound": "model/remu/voice/26.wav",
-			"msg_id": "26"
+			"file": "model/remu/motions/Live2D_remu26.mtn"
 		}],
 		"idle": [{
 			"file": "model/remu/motions/Live2D_remu_idle.mtn"
 		}],
 		"tap_head": [{
-				"file": "model/remu/motions/Live2D_remu01.mtn",
-                "sound": "model/remu/voice/01.wav",
-				"msg_id": "1"
+				"file": "model/remu/motions/Live2D_remu01.mtn"
 			},
 			{
-				"file": "model/remu/motions/Live2D_remu02.mtn",
-                "sound": "model/remu/voice/02.wav",
-				"msg_id": "2"
+				"file": "model/remu/motions/Live2D_remu02.mtn"
 			},
 			{
-				"file": "model/remu/motions/Live2D_remu03.mtn",
-                "sound": "model/remu/voice/03.wav",
-				"msg_id": "3"
+				"file": "model/remu/motions/Live2D_remu03.mtn"
 			},
 			{
-				"file": "model/remu/motions/Live2D_remu04.mtn",
-                "sound": "model/remu/voice/04.wav",
-				"msg_id": "4"
+				"file": "model/remu/motions/Live2D_remu04.mtn"
 			},
 			{
-				"file": "model/remu/motions/Live2D_remu05.mtn",
-                "sound": "model/remu/voice/05.wav",
-				"msg_id": "5"
+				"file": "model/remu/motions/Live2D_remu05.mtn"
 			},
 			{
-				"file": "model/remu/motions/Live2D_remu21.mtn",
-                "sound": "model/remu/voice/21.wav",
-				"msg_id": "21"
+				"file": "model/remu/motions/Live2D_remu21.mtn"
 			},
 			{
-				"file": "model/remu/motions/Live2D_remu22.mtn",
-                "sound": "model/remu/voice/22.wav",
-				"msg_id": "22"
+				"file": "model/remu/motions/Live2D_remu22.mtn"
 			},
 			{
-				"file": "model/remu/motions/Live2D_remu23.mtn",
-                "sound": "model/remu/voice/23.wav",
-				"msg_id": "23"
+				"file": "model/remu/motions/Live2D_remu23.mtn"
 			},
 			{
-				"file": "model/remu/motions/Live2D_remu24.mtn",
-                "sound": "model/remu/voice/24.wav",
-				"msg_id": "24"
+				"file": "model/remu/motions/Live2D_remu24.mtn"
 			},
 			{
-				"file": "model/remu/motions/Live2D_remu25.mtn",
-                "sound": "model/remu/voice/25.wav",
-				"msg_id": "25"
+				"file": "model/remu/motions/Live2D_remu25.mtn"
 			}
 		],
 		"tap_body": [
 			{
-				"file": "model/remu/motions/Live2D_remu06.mtn",
-				"sound": "model/remu/voice/06.wav",
-                "msg_id": "6"
+				"file": "model/remu/motions/Live2D_remu06.mtn"
 			},
 			{
-				"file": "model/remu/motions/Live2D_remu07.mtn",
-				"sound": "model/remu/voice/07.wav",
-                "msg_id": "7"
+				"file": "model/remu/motions/Live2D_remu07.mtn"
 			},
 			{
-				"file": "model/remu/motions/Live2D_remu08.mtn",
-                "sound": "model/remu/voice/08.wav",
-				"msg_id": "8"
+				"file": "model/remu/motions/Live2D_remu08.mtn"
 			},
 			{
-				"file": "model/remu/motions/Live2D_remu09.mtn",
-                "sound": "model/remu/voice/09.wav",
-				"msg_id": "9"
+				"file": "model/remu/motions/Live2D_remu09.mtn"
 			},
 			{
-				"file": "model/remu/motions/Live2D_remu10.mtn",
-                "sound": "model/remu/voice/10.wav",
-				"msg_id": "10"
+				"file": "model/remu/motions/Live2D_remu10.mtn"
 			},
 			{
-				"file": "model/remu/motions/Live2D_remu11.mtn",
-                "sound": "model/remu/voice/11.wav",
-				"msg_id": "11"
+				"file": "model/remu/motions/Live2D_remu11.mtn"
 			},
 			{
-				"file": "model/remu/motions/Live2D_remu12.mtn",
-                "sound": "model/remu/voice/12.wav",
-				"msg_id": "12"
+				"file": "model/remu/motions/Live2D_remu12.mtn"
 			},
 			{
-				"file": "model/remu/motions/Live2D_remu13.mtn",
-                "sound": "model/remu/voice/13.wav",
-				"msg_id": "13"
+				"file": "model/remu/motions/Live2D_remu13.mtn"
 			},
 			{
-				"file": "model/remu/motions/Live2D_remu14.mtn",
-                "sound": "model/remu/voice/14.wav",
-				"msg_id": "14"
+				"file": "model/remu/motions/Live2D_remu14.mtn"
 			},
 			{
-				"file": "model/remu/motions/Live2D_remu15.mtn",
-                "sound": "model/remu/voice/15.wav",
-				"msg_id": "15"
+				"file": "model/remu/motions/Live2D_remu15.mtn"
 			},
 			{
-				"file": "model/remu/motions/Live2D_remu16.mtn",
-                "sound": "model/remu/voice/16.wav",
-				"msg_id": "16"
+				"file": "model/remu/motions/Live2D_remu16.mtn"
 			},
 			{
-				"file": "model/remu/motions/Live2D_remu17.mtn",
-                "sound": "model/remu/voice/17.wav",
-				"msg_id": "17"
+				"file": "model/remu/motions/Live2D_remu17.mtn"
 			},
 			{
-				"file": "model/remu/motions/Live2D_remu18.mtn",
-                "sound": "model/remu/voice/18.wav",
-				"msg_id": "18"
+				"file": "model/remu/motions/Live2D_remu18.mtn"
 			},
 			{
-				"file": "model/remu/motions/Live2D_remu19.mtn",
-                "sound": "model/remu/voice/19.wav",
-				"msg_id": "19"
+				"file": "model/remu/motions/Live2D_remu19.mtn"
 			},
 			{
-				"file": "model/remu/motions/Live2D_remu20.mtn",
-                "sound": "model/remu/voice/20.wav",
-				"msg_id": "20"
+				"file": "model/remu/motions/Live2D_remu20.mtn"
 			}
 		],
 		"random": [{
-				"file": "model/remu/motions/Live2D_remu01.mtn",
-                "sound": "model/remu/voice/01.wav",
-				"msg_id": "1"
+				"file": "model/remu/motions/Live2D_remu01.mtn"
 			},
 			{
-				"file": "model/remu/motions/Live2D_remu02.mtn",
-                "sound": "model/remu/voice/02.wav",
-				"msg_id": "2"
+				"file": "model/remu/motions/Live2D_remu02.mtn"
 			},
 			{
-				"file": "model/remu/motions/Live2D_remu03.mtn",
-                "sound": "model/remu/voice/03.wav",
-				"msg_id": "3"
+				"file": "model/remu/motions/Live2D_remu03.mtn"
 			},
 			{
-				"file": "model/remu/motions/Live2D_remu04.mtn",
-                "sound": "model/remu/voice/04.wav",
-				"msg_id": "4"
+				"file": "model/remu/motions/Live2D_remu04.mtn"
 			},
 			{
-				"file": "model/remu/motions/Live2D_remu05.mtn",
-                "sound": "model/remu/voice/05.wav",
-				"msg_id": "5"
+				"file": "model/remu/motions/Live2D_remu05.mtn"
 			},
 			{
-				"file": "model/remu/motions/Live2D_remu21.mtn",
-                "sound": "model/remu/voice/21.wav",
-				"msg_id": "21"
+				"file": "model/remu/motions/Live2D_remu21.mtn"
 			},
 			{
-				"file": "model/remu/motions/Live2D_remu22.mtn",
-                "sound": "model/remu/voice/22.wav",
-				"msg_id": "22"
+				"file": "model/remu/motions/Live2D_remu22.mtn"
 			},
 			{
-				"file": "model/remu/motions/Live2D_remu23.mtn",
-                "sound": "model/remu/voice/23.wav",
-				"msg_id": "23"
+				"file": "model/remu/motions/Live2D_remu23.mtn"
 			},
 			{
-				"file": "model/remu/motions/Live2D_remu24.mtn",
-                "sound": "model/remu/voice/24.wav",
-				"msg_id": "24"
+				"file": "model/remu/motions/Live2D_remu24.mtn"
 			},
 			{
-				"file": "model/remu/motions/Live2D_remu25.mtn",
-                "sound": "model/remu/voice/25.wav",
-				"msg_id": "25"
+				"file": "model/remu/motions/Live2D_remu25.mtn"
 			}
         ],
 		"new_msg": [
 			{
-				"file": "model/remu/motions/Live2D_remu24.mtn",
-                "sound": "model/remu/voice/24.wav",
-				"msg_id": "24"
+				"file": "model/remu/motions/Live2D_remu24.mtn"
 			}
 		]
 	}

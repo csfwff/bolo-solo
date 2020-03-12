@@ -35,7 +35,6 @@
 		],
 		"start": [{
 			"file": "model/Violet/motions/start.mtn",
-			"sound": "model/Violet/sound/start.mp3",
 			"text": "",
 			"fade_in": 0,
 			"fade_out": 0
@@ -48,21 +47,18 @@
 		}],
 		"tap_body": [{
 			"file": "model/Violet/motions/tap_body.mtn",
-			"sound": "model/Violet/sound/tap_body.mp3",
 			"text": "",
 			"fade_in": 0,
 			"fade_out": 0
 		}],
 		"tap_arm_left": [{
 			"file": "model/Violet/motions/tap_Lhand.mtn",
-			"sound": "model/Violet/sound/tap_Lhand.mp3",
 			"text": "",
 			"fade_in": 0,
 			"fade_out": 0
 		}],
 		"tap_arm_right": [{
 			"file": "model/Violet/motions/tap_Rhand.mtn",
-			"sound": "model/Violet/sound/tap_Rhand.mp3",
 			"text": "",
 			"fade_in": 0,
 			"fade_out": 0
@@ -75,7 +71,6 @@
 		}],
 		"new_msg": [{
 			"file": "model/Violet/motions/tap_Lhand.mtn",
-			"sound": "model/Violet/sound/tap_Lhand.mp3",
 			"text": "",
 			"fade_in": 0,
 			"fade_out": 0

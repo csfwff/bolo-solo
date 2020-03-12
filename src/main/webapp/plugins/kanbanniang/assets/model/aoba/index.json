@@ -29,160 +29,115 @@
 		],
         "tap_head": [
 			{
-				"file": "model/aoba/mtn/aoba_live2D_01.mtn",
-				"msg_id": "1",
-				"sound": "model/aoba/voice/400170010.mp3"
+				"file": "model/aoba/mtn/aoba_live2D_01.mtn"
 			},
 			{
-				"file": "model/aoba/mtn/aoba_live2D_02.mtn",
-				"msg_id": "2",
-				"sound": "model/aoba/voice/400170020.mp3"
+				"file": "model/aoba/mtn/aoba_live2D_02.mtn"
 			},
 			{
-				"file": "model/aoba/mtn/aoba_live2D_03.mtn",
-				"msg_id": "3",
-				"sound": "model/aoba/voice/400170030.mp3"
+				"file": "model/aoba/mtn/aoba_live2D_03.mtn"
 			},
 			{
-				"file": "model/aoba/mtn/aoba_live2D_04.mtn",
-				"msg_id": "4",
-				"sound": "model/aoba/voice/400170040.mp3"
+				"file": "model/aoba/mtn/aoba_live2D_04.mtn"
 			},
 			{
-				"file": "model/aoba/mtn/aoba_live2D_05.mtn",
-				"msg_id": "5",
-				"sound": "model/aoba/voice/400170050.mp3"
+				"file": "model/aoba/mtn/aoba_live2D_05.mtn"
 			},
 			{
-				"file": "model/aoba/mtn/aoba_live2D_06.mtn",
-				"msg_id": "6",
-				"sound": "model/aoba/voice/400170060.mp3"
+				"file": "model/aoba/mtn/aoba_live2D_06.mtn"
 			},
 			{
-				"file": "model/aoba/mtn/aoba_live2D_07.mtn",
-				"msg_id": "7",
-				"sound": "model/aoba/voice/400170070.mp3"
+				"file": "model/aoba/mtn/aoba_live2D_07.mtn"
 			},
 			{
-				"file": "model/aoba/mtn/aoba_live2D_08.mtn",
-				"msg_id": "8",
-				"sound": "model/aoba/voice/400170080.mp3"
+				"file": "model/aoba/mtn/aoba_live2D_08.mtn"
 			},
 			{
-				"file": "model/aoba/mtn/aoba_live2D_09.mtn",
-				"msg_id": "9",
-				"sound": "model/aoba/voice/400170090.mp3"
+				"file": "model/aoba/mtn/aoba_live2D_09.mtn"
 			},
 			{
-				"file": "model/aoba/mtn/aoba_live2D_10.mtn",
-				"msg_id": "10",
-				"sound": "model/aoba/voice/400170100.mp3"
+				"file": "model/aoba/mtn/aoba_live2D_10.mtn"
 			},
 			{
-				"file": "model/aoba/mtn/aoba_live2D_27.mtn",
-				"sound": "model/aoba/voice/400170270.mp3"
+				"file": "model/aoba/mtn/aoba_live2D_27.mtn"
 			},
 			{
-				"file": "model/aoba/mtn/aoba_live2D_28.mtn",
-				"sound": "model/aoba/voice/400170280.mp3"
+				"file": "model/aoba/mtn/aoba_live2D_28.mtn"
 			},
 			{
-				"file": "model/aoba/mtn/aoba_live2D_29.mtn",
-				"sound": "model/aoba/voice/400170290.mp3"
+				"file": "model/aoba/mtn/aoba_live2D_29.mtn"
 			},
 			{
-				"file": "model/aoba/mtn/aoba_live2D_30.mtn",
-				"sound": "model/aoba/voice/400170300.mp3"
+				"file": "model/aoba/mtn/aoba_live2D_30.mtn"
 			},
 			{
-				"file": "model/aoba/mtn/aoba_live2D_31.mtn",
-				"sound": "model/aoba/voice/400170310.mp3"
+				"file": "model/aoba/mtn/aoba_live2D_31.mtn"
 			},
 			{
-				"file": "model/aoba/mtn/aoba_live2D_32.mtn",
-				"sound": "model/aoba/voice/400170320.mp3"
+				"file": "model/aoba/mtn/aoba_live2D_32.mtn"
 			},
 			{
-				"file": "model/aoba/mtn/aoba_live2D_33.mtn",
-				"sound": "model/aoba/voice/400170330.mp3"
+				"file": "model/aoba/mtn/aoba_live2D_33.mtn"
 			},
 			{
-				"file": "model/aoba/mtn/aoba_live2D_34.mtn",
-				"sound": "model/aoba/voice/400170340.mp3"
+				"file": "model/aoba/mtn/aoba_live2D_34.mtn"
 			}
 		],
 		"tap_body": [
 			{
-				"file": "model/aoba/mtn/aoba_live2D_11.mtn",
-				"sound": "model/aoba/voice/400170110.mp3"
+				"file": "model/aoba/mtn/aoba_live2D_11.mtn"
 			},
 			{
-				"file": "model/aoba/mtn/aoba_live2D_12.mtn",
-				"sound": "model/aoba/voice/400170120.mp3"
+				"file": "model/aoba/mtn/aoba_live2D_12.mtn"
 			},
 			{
-				"file": "model/aoba/mtn/aoba_live2D_13.mtn",
-				"sound": "model/aoba/voice/400170130.mp3"
+				"file": "model/aoba/mtn/aoba_live2D_13.mtn"
 			},
 			{
-				"file": "model/aoba/mtn/aoba_live2D_14.mtn",
-				"sound": "model/aoba/voice/400170140.mp3"
+				"file": "model/aoba/mtn/aoba_live2D_14.mtn"
 			},
 			{
-				"file": "model/aoba/mtn/aoba_live2D_15.mtn",
-				"sound": "model/aoba/voice/400170150.mp3"
+				"file": "model/aoba/mtn/aoba_live2D_15.mtn"
 			},
 			{
-				"file": "model/aoba/mtn/aoba_live2D_16.mtn",
-				"sound": "model/aoba/voice/400170160.mp3"
+				"file": "model/aoba/mtn/aoba_live2D_16.mtn"
 			},
 			{
-				"file": "model/aoba/mtn/aoba_live2D_17.mtn",
-				"sound": "model/aoba/voice/400170170.mp3"
+				"file": "model/aoba/mtn/aoba_live2D_17.mtn"
 			},
 			{
-				"file": "model/aoba/mtn/aoba_live2D_18.mtn",
-				"sound": "model/aoba/voice/400170180.mp3"
+				"file": "model/aoba/mtn/aoba_live2D_18.mtn"
 			},
 			{
-				"file": "model/aoba/mtn/aoba_live2D_19.mtn",
-				"sound": "model/aoba/voice/400170190.mp3"
+				"file": "model/aoba/mtn/aoba_live2D_19.mtn"
 			},
 			{
-				"file": "model/aoba/mtn/aoba_live2D_20.mtn",
-				"sound": "model/aoba/voice/400170200.mp3"
+				"file": "model/aoba/mtn/aoba_live2D_20.mtn"
 			},
 			{
-				"file": "model/aoba/mtn/aoba_live2D_22.mtn",
-				"sound": "model/aoba/voice/400170220.mp3"
+				"file": "model/aoba/mtn/aoba_live2D_22.mtn"
 			},
 			{
-				"file": "model/aoba/mtn/aoba_live2D_23.mtn",
-				"sound": "model/aoba/voice/400170230.mp3"
+				"file": "model/aoba/mtn/aoba_live2D_23.mtn"
 			},
 			{
-				"file": "model/aoba/mtn/aoba_live2D_24.mtn",
-				"sound": "model/aoba/voice/400170240.mp3"
+				"file": "model/aoba/mtn/aoba_live2D_24.mtn"
 			},
 			{
-				"file": "model/aoba/mtn/aoba_live2D_25.mtn",
-				"sound": "model/aoba/voice/400170250.mp3"
+				"file": "model/aoba/mtn/aoba_live2D_25.mtn"
 			},
 			{
-				"file": "model/aoba/mtn/aoba_live2D_26.mtn",
-				"sound": "model/aoba/voice/400170260.mp3"
+				"file": "model/aoba/mtn/aoba_live2D_26.mtn"
 			}
 		],		
 		"shake": [
 			{
-				"file": "model/aoba/mtn/aoba_live2D_21.mtn",
-				"sound": "model/aoba/voice/400170210.mp3"
+				"file": "model/aoba/mtn/aoba_live2D_21.mtn"
 			}
 		],
 		"new_msg": [
 			{
-				"file": "motions/aoba_live2D_01.mtn",
-				"sound": "model/aoba/voice/new_msg.mp3"
+				"file": "motions/aoba_live2D_01.mtn"
 			}
 		]
 	}
