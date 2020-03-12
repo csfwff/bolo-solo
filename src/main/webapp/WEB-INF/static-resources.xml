@@ -102,6 +102,8 @@
     <include path="/plugins/**/*.moc"/>
     <include path="/plugins/**/*.mtn"/>
     <include path="/plugins/**/*.ogg"/>
+    <include path="/plugins/**/*.mp3"/>
+    <include path="/plugins/**/*.wav"/>
 
     <include path="/CHANGE_LOGS.html"/>
     <include path="/LICENSE.txt"/>
