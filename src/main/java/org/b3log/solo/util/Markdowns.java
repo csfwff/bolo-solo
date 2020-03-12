@@ -108,7 +108,12 @@ public final class Markdowns {
     /**
      * Whether Lute is available.
      */
-    public static boolean LUTE_AVAILABLE;
+    public static boolean LUTE_AVAILABLE = false;
+
+    /**
+     * Lute status
+     */
+    private static boolean LUTE_OK = false;
 
     /**
      * Cleans the specified HTML.
@@ -156,6 +161,12 @@ public final class Markdowns {
             if (LUTE_AVAILABLE) {
                 try {
                     html = toHtmlByLute(markdownText);
+                    if (!LUTE_OK) {
+                        LOGGER.log(Level.INFO, "Lute-HTTP To HTML successful.");
+                        LUTE_OK = true;
+                    } else {
+                        LOGGER.log(Level.DEBUG, "Lute-HTTP To HTML successful.");
+                    }
                 } catch (final Exception e) {
                     LOGGER.log(Level.WARN, "Failed to use [Lute] for markdown [md=" + StringUtils.substring(markdownText, 0, 256) + "]: " + e.getMessage());
                 }
@@ -261,8 +272,15 @@ public final class Markdowns {
     private static String toHtmlByLute(final String markdownText) throws Exception {
         final URL url = new URL(LUTE_ENGINE_URL);
         final HttpURLConnection conn = (HttpURLConnection) url.openConnection();
+        conn.setRequestProperty("X-CodeSyntaxHighlightLineNum", String.valueOf(false));
+        conn.setRequestProperty("X-Footnotes", String.valueOf(false));
+        conn.setRequestProperty("X-ToC", String.valueOf(false));
+        conn.setRequestProperty("X-AutoSpace", String.valueOf(false));
+        conn.setRequestProperty("X-FixTermTypo", String.valueOf(false));
+        conn.setRequestProperty("X-ChinesePunct", String.valueOf(false));
+        conn.setRequestProperty("X-IMADAOM", String.valueOf(false));
         conn.setConnectTimeout(100);
-        conn.setReadTimeout(1000);
+        conn.setReadTimeout(3000);
         conn.setDoOutput(true);
 
         try (final OutputStream outputStream = conn.getOutputStream()) {

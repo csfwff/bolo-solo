@@ -34,6 +34,7 @@ import org.b3log.latke.servlet.DispatcherServlet;
 import org.b3log.latke.util.Requests;
 import org.b3log.latke.util.Stopwatchs;
 import org.b3log.latke.util.Strings;
+import org.b3log.solo.bolo.prop.MailService;
 import org.b3log.solo.event.B3ArticleSender;
 import org.b3log.solo.event.B3ArticleUpdater;
 import org.b3log.solo.event.B3CommentSender;
@@ -70,9 +71,13 @@ public final class SoloServletListener extends AbstractServletListener {
     private static final Logger LOGGER = Logger.getLogger(SoloServletListener.class);
 
     /**
+     * Bolo version.
+     */
+    public static final String BOLO_VERSION = "v1.4 稳定版";
+    /**
      * Solo version.
      */
-    public static final String VERSION = "3.6.7";
+    public static String VERSION = "4.0.0";
 
     /**
      * Bean manager.
@@ -143,6 +148,8 @@ public final class SoloServletListener extends AbstractServletListener {
 
         final CronMgmtService cronMgmtService = beanManager.getReference(CronMgmtService.class);
         cronMgmtService.start();
+
+        MailService.loadMailSettings();
     }
 
     @Override
@@ -326,6 +333,7 @@ public final class SoloServletListener extends AbstractServletListener {
         final AdminConsole adminConsole = beanManager.getReference(AdminConsole.class);
         DispatcherServlet.get("/admin-index.do", adminConsole::showAdminIndex);
         DispatcherServlet.get("/admin-preference.do", adminConsole::showAdminPreferenceFunction);
+        DispatcherServlet.get("/admin-tool-box.do", adminConsole::showAdminToolBoxFunction);
         DispatcherServlet.route().get(new String[]{"/admin-article.do",
                 "/admin-article-list.do",
                 "/admin-comment-list.do",

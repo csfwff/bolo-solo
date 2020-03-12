@@ -120,6 +120,16 @@ public final class Solos {
 
         try {
             Markdowns.LUTE_ENGINE_URL = solo.getString("luteHttp");
+            String luteHttp2 = System.getProperty("lute_http");
+            if (luteHttp2 != null && !luteHttp2.isEmpty()) {
+                Markdowns.LUTE_ENGINE_URL = luteHttp2;
+                Markdowns.LUTE_AVAILABLE = true;
+            }
+            if (Markdowns.LUTE_AVAILABLE) {
+                LOGGER.log(Level.INFO, "lute_http configure detected [url=" + Markdowns.LUTE_ENGINE_URL + "]");
+            } else {
+                LOGGER.log(Level.INFO, "lute_http configure not found, using locale markdown engine.");
+            }
         } catch (final Exception e) {
             // ignored
         }
@@ -230,8 +240,20 @@ public final class Solos {
 
             final JSONObject data = result.optJSONObject(Common.DATA);
             uploadTokenTime = now;
+            // 自定义图床字段
+            final BeanManager beanManager = BeanManager.getInstance();
+            final OptionRepository optionRepository = beanManager.getReference(OptionRepository.class);
+            String config = "hacpai";
+            try {
+                config = optionRepository.get(Option.ID_C_TUCHUANG_CONFIG).optString(Option.OPTION_VALUE);
+            } catch (Exception e) {
+            }
+            if (config.equals("hacpai")) {
+                uploadURL = data.optString("uploadURL");
+            } else {
+                uploadURL = Latkes.getStaticServePath() + "/pic/upload";
+            }
             uploadToken = data.optString("uploadToken");
-            uploadURL = data.optString("uploadURL");
             uploadMsg = "";
 
             return new JSONObject().

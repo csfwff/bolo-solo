@@ -30,7 +30,7 @@ import org.json.JSONObject;
  * Upgrade service.
  *
  * @author <a href="http://88250.b3log.org">Liang Ding</a>
- * @version 1.2.1.13, Nov 11, 2019
+ * @version 1.2.1.17, Feb 21, 2020
  * @since 1.2.0
  */
 @Service
@@ -93,15 +93,24 @@ public class UpgradeService {
                     V365_366.perform();
                 case "3.6.6":
                     V366_367.perform();
-
+                case "3.6.7":
+                    V367_368.perform();
+                case "3.6.8":
+                    V368_370.perform();
+                case "3.7.0":
+                    V370_380.perform();
+                case "3.8.0":
+                    V380_390.perform();
+                case "3.9.0":
+                    V390_400.perform();
                     break;
                 default:
-                    LOGGER.log(Level.ERROR, "Please upgrade to v3.0.0 first");
-                    System.exit(-1);
+                    LOGGER.log(Level.INFO, "Version " + currentVer + " loaded in compatibility mode. (unresolvable)");
+                    SoloServletListener.VERSION = currentVer;
             }
         } catch (final Exception e) {
-            LOGGER.log(Level.ERROR, "Upgrade failed, please contact the Solo developers or reports this "
-                    + "issue: https://github.com/b3log/solo/issues/new", e);
+            LOGGER.log(Level.ERROR, "Upgrade failed, please contact the Bolo developers or reports this "
+                    + "issue: https://github.com/AdlerED/bolo-solo/issues/new", e);
             System.exit(-1);
         }
     }

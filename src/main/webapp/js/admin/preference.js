@@ -45,8 +45,15 @@ admin.preference = {
 
         var preference = result.preference
 
+        $('#replyRemind').val(preference.replyRemind)
+        $('#sourceTC').text(preference.tuChuangConfig)
+        sltd = $('#sourceTC').text().split('<<>>')[0];
+        $('#tcS').val(sltd);
         $('#hacpaiUser').val(preference.hacpaiUser)
         $('#b3logKey').val(preference.b3logKey)
+        $('#mailBox').val(preference.mailBox)
+        $('#mailUsername').val(preference.mailUsername)
+        $('#mailPassword').val(preference.mailPassword)
         $('#metaKeywords').val(preference.metaKeywords)
         $('#metaDescription').val(preference.metaDescription)
         $('#blogTitle').val(preference.blogTitle)
@@ -195,8 +202,13 @@ admin.preference = {
 
     var requestJSONObject = {
       'preference': {
+        'replyRemind': $('#replyRemind').val(),
+        'tuChuangConfig': $('#sourceTC').text(),
         'hacpaiUser': $('#hacpaiUser').val(),
         'b3logKey': $('#b3logKey').val(),
+        'mailBox': $('#mailBox').val(),
+        'mailUsername': $('#mailUsername').val(),
+        'mailPassword': $('#mailPassword').val(),
         'metaKeywords': $('#metaKeywords').val(),
         'metaDescription': $('#metaDescription').val(),
         'blogTitle': $('#blogTitle').val(),
